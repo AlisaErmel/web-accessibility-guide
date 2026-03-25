@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -11,42 +11,45 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Hello!',
+    Svg: () => (
+      <img src={require('@site/static/img/mylogo.png').default} alt="Hello" className={styles.featureSvg} />
+    ),
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This technical documentation provides an overview of best practices for web accessibility.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '3 Steps',
+    Svg: () => (
+      <img src={require('@site/static/img/steps.png').default} alt="Hello" className={styles.featureSvg} />
+    ),
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Don’t know where to start? What to do during the development phase? How to test? These guidelines will help you.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Mission',
+    Svg: () => (
+      <img src={require('@site/static/img/mission.png').default} alt="Hello" className={styles.featureSvg} />
+    ),
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Together, we can create more accessible web applications for everyone!
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

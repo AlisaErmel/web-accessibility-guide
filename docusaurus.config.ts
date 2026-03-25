@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Accessibility Technical Documentation',
   tagline: 'A step-by-step guide on how to make your web application accessible.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mylogo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,10 +75,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Accessibility Guidelines',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'My WebSite Logo: Accessibility Guidelines',
+        src: 'img/mylogo.png',
       },
       items: [
         {
@@ -89,7 +89,7 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/AlisaErmel/web-accessibility-guide',
           label: 'GitHub',
           position: 'right',
         },
@@ -138,7 +138,11 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `<a href="https://www.flaticon.com/free-icons/route" title="route icons">Route icons, </a>
+      <a href="https://www.flaticon.com/free-icons/cityscape" title="cityscape icons"> Cityscape icons, </a>
+      <a href="https://www.flaticon.com/free-icons/scenery" title="scenery icons"> Scenery icons created by Icon Pond - Flaticon</a>
+      <br />
+      Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
