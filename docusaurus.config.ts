@@ -142,7 +142,7 @@ const config: Config = {
       <a href="https://www.flaticon.com/free-icons/cityscape" title="cityscape icons"> Cityscape icons, </a>
       <a href="https://www.flaticon.com/free-icons/scenery" title="scenery icons"> Scenery icons created by Icon Pond - Flaticon</a>
       <br />
-      Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      Copyright © ${new Date().getFullYear()} Accessibility Guidelines, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

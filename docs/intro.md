@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Accessibility Guidelines Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Hello Developer 🌟,**
 
-## Getting Started
+This quick guide will walk you **step by step** through **digital accessibility**, helping you understand the **essentials** and apply them to your **web application**.
 
-Get started by **creating a new site**.
+## What we will cover:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 1. Understanding Accessibility
 
-### What you'll need
+This guide explains the term **accessibility**, what it means, why we need to make our websites accessible, and who benefits from accessible web applications.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 2. Developing Accessible Web Applications
 
-## Generate a new site
+In this technical documentation, you’ll find **advice**, **common mistakes**, and **practical examples**, organized into **3 categories**:
 
-Generate a new Docusaurus site using the **classic template**.
+1️⃣ **Before development** – What should you consider before writing a single line of code or creating your web application?
 
-The classic template will automatically be added to your project after you run the command:
+2️⃣ **During development** – Which techniques and approaches should you use, and which testing tools are most helpful?
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+3️⃣ **After development** – How to test your application to ensure it meets web accessibility standards?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 3. Where to Find More Information
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+We’ll also cover where to find official web accessibility standards and other reliable resources for deeper learning. 📖
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Good luck with your creations! 💟
