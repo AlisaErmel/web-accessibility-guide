@@ -138,9 +138,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
-      <br />
-      <a href="https://www.flaticon.com/free-icons/route" title="route icons">Route icons, </a>
+      copyright: `<a href="https://www.flaticon.com/free-icons/route" title="route icons">Route icons, </a>
       <a href="https://www.flaticon.com/free-icons/cityscape" title="cityscape icons"> Cityscape icons, </a>
       <a href="https://www.flaticon.com/free-icons/scenery" title="scenery icons"> Scenery icons created by Icon Pond - Flaticon</a>
       <br />
