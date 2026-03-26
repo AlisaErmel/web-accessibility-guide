@@ -36,7 +36,7 @@ Accessibility benefits a wide range of users:
 - Anyone experiencing temporary limitations  
 - In fact, **all users**, through improved usability  
 
-## Key Idea
+## Key Idea 💡
 
 Accessibility is not an optional feature — it is a **core quality** of a well-designed web application.
 
