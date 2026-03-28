@@ -5,6 +5,8 @@ sidebar_position: 4
 
 # Colours Selection
 
+This section provides an overview of colour fundamentals and explains their role in ensuring accessible web design.
+
 ## Why Colours Matter 🎨
 
 Colours can evoke **different emotions and reactions** depending on the user. For example:
@@ -16,6 +18,68 @@ Colours can evoke **different emotions and reactions** depending on the user. Fo
 - **Purple** is commonly linked to creativity, imagination, and luxury  
 
 However, these meanings are not universal. Cultural background, personal experience, and cognitive differences may influence how users perceive colours. Therefore, when designing accessible web applications, colours should **not be the only way to convey information**.
+
+---
+
+## Colour Blindness and User Considerations 🧬
+
+When designing accessible web applications, it is important to consider users with **colour vision deficiencies** (commonly referred to as colour blindness). Colour blindness affects how individuals perceive colours and may impact their ability to distinguish between certain colour combinations.  
+
+### Common Types of Colour Blindness
+
+1. **Protanopia (Red-Blind)**  
+   - Individuals have reduced sensitivity to red light.  
+   - Red hues may appear darker or indistinguishable from green.  
+   - **Implication:** Avoid using red as the sole indicator of errors or warnings.
+
+![Example of normal colours with comparison to how red-blind people see it](img/red_blind.JPG)
+
+*Visual comparison of the original colour palette from Spi-des-ign (https://www.spi-des-ign.co.uk/news/website-colours/) under normal vision and as perceived by individuals with Protanopia (Red-Blind). The simulation was made using the Stark tool.*
+
+2. **Deuteranopia (Green-Blind)**  
+   - Individuals have reduced sensitivity to green light.  
+   - Green and red may appear similar, causing difficulty in differentiating status indicators.  
+   - **Implication:** Use patterns or text labels in addition to colour coding.
+
+![Example of normal colours with comparison to how green-blind people see it](img/green_blind.JPG)
+
+*Visual comparison of the original colour palette from Spi-des-ign (https://www.spi-des-ign.co.uk/news/website-colours/) under normal vision and as perceived by individuals with Deuteranopia (Green-Blind). The simulation was made using the Stark tool.*
+
+:::note Note
+**Protanopia** and **Deuteranopia** are both **red–green** colour deficiencies. Visually, the difference is subtle — in Protanopia, red appears darker, while in Deuteranopia, green appears duller. In practice, design strategies are similar for both types.
+:::
+
+3. **Tritanopia (Blue-Blind)**  
+   - Individuals have reduced sensitivity to blue light.  
+   - Blue and yellow may be difficult to distinguish.  
+   - **Implication:** Avoid relying exclusively on blue/yellow contrasts for important information.
+
+![Example of normal colours with comparison to how blue-blind people see it](img/blue_blind.JPG)
+
+*Visual comparison of the original colour palette from Spi-des-ign (https://www.spi-des-ign.co.uk/news/website-colours/) under normal vision and as perceived by individuals with Tritanopia (Blue-Blind). The simulation was made using the Stark tool.*
+
+4. **Achromatopsia (Total Colour Blindness)**  
+   - Individuals perceive the world in shades of grey.  
+   - Rare, but they are unable to distinguish colours at all.  
+   - **Implication:** Ensure that information is conveyed through multiple visual cues, such as contrast, shape, or text.
+
+![Example of normal colours with comparison to how total colour blind people see it](img/total_blind.JPG)
+
+*Visual comparison of the original colour palette from Spi-des-ign (https://www.spi-des-ign.co.uk/news/website-colours/) under normal vision and as perceived by individuals with Achromatopsia (Total Colour Blindness). The simulation was made using the Stark tool.*
+
+### Design Recommendations for Colour Blind Users
+
+- Use **high-contrast colour combinations** that are distinguishable even for common types of colour blindness.  
+- Supplement colour coding with **text, icons, or patterns**.  
+- Test the application with **colour blindness simulators** to verify usability.  
+- Avoid relying solely on red/green combinations to convey meaning.  
+
+:::info Link
+Colour blindness simulations can be performed using online tools. For example:
+
+- **Coblis — Colour Blindness Simulator** (https://www.color-blindness.com/coblis-color-blindness-simulator/) allows you to upload images and see how they appear to different types of colour-blind users.  
+- **Stark** (https://www.getstark.co/for-developers/) can simulate colour-blindness **directly inside your web application** during development, helping to test accessibility in real-time.
+:::
 
 ---
 
