@@ -1,5 +1,5 @@
 ---
-sidebar_label: "Choice of the tools"
+sidebar_label: "Choice of the Tools"
 sidebar_position: 3
 ---
 
@@ -23,7 +23,7 @@ Based on these criteria, the following categories were used:
 ---
 
 :::note Note
-"Tested" below indicates that the author applied these tools in a self-developed web application. 😉
+**Tested** below indicates that the author applied these tools in a self-developed web application. 😉
 :::
 
 ### 1. Automated Testing Tools ⚡
