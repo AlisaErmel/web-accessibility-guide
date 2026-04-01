@@ -7,6 +7,8 @@ sidebar_position: 1
 
 Before diving into technical practices, it’s important to clearly understand what **accessibility** means in the context of web development.
 
+---
+
 ## What is Accessibility?
 
 **Accessibility** is the practice of designing and developing digital products so that **everyone can use them**, regardless of their abilities or the conditions in which they access the web.

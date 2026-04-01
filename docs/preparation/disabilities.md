@@ -7,6 +7,8 @@ sidebar_position: 2
 
 When building accessible web applications, it’s important to remember that users interact with your product in **different ways**.
 
+---
+
 To create inclusive experiences, you should consider several **key user groups**, each with their own interaction patterns and needs.
 
 ## Key User Groups

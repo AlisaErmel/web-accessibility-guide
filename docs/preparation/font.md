@@ -7,6 +7,8 @@ sidebar_position: 5
 
 This section describes the principles and rationale behind choosing the font family for the web application, focusing on accessibility and user experience.
 
+---
+
 ## Why Typography Matters ✍️
 
 Fonts influence how users **perceive and interact** with content. The right typeface can:
