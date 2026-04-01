@@ -9,6 +9,8 @@ const config: Config = {
   tagline: 'A step-by-step guide on how to make your web application accessible.',
   favicon: 'img/mylogo.png',
 
+  themes: ['@docusaurus/theme-live-codeblock'],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
