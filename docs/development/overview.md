@@ -13,7 +13,7 @@ In this phase, accessibility is actively implemented in the product through **be
 
 ## What This Section Covers
 
-This section focuses on the most important accessibility practices applied during development:
+This section focuses on the most important accessibility best practices that should be applied during development:
 
 ### 🛠️ Tools During Development
 Using appropriate tools throughout development helps identify and fix accessibility issues early. This includes browser developer tools, linters, and automated accessibility testing tools.
@@ -36,3 +36,7 @@ UI components such as buttons, forms, modals, and navigation elements must be de
 ## Summary
 
 The development phase transforms accessibility principles into practical implementation. By following these best practices, developers can create applications that are inclusive, user-friendly, and compliant with accessibility standards.
+
+:::tip Tip
+In the following documentation, each best practice will include a **list of tools and methods** to test and verify that it has been implemented correctly. This will help developers ensure that headings, landmarks, ARIA attributes, focus management, responsive design, and UI components are all functioning as intended.
+:::
