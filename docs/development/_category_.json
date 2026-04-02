@@ -1,0 +1,8 @@
+{
+    "label": "Development",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "Learn what to do during the development phase and how to test accessibility."
+    }
+}
