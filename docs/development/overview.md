@@ -21,7 +21,7 @@ Using appropriate tools throughout development helps identify and fix accessibil
 ### 🧱 Structure of the Page
 A well-structured page ensures that content is logically organized and easy to navigate. Proper use of semantic HTML elements improves accessibility for screen readers and other assistive technologies.
 
-### ♿ ARIA (Accessible Rich Internet Applications)
+### 🔊 ARIA (Accessible Rich Internet Applications)
 ARIA attributes enhance accessibility when native HTML is not sufficient. They help provide additional context and roles to assistive technologies.
 
 ### 🎯 Focus Management
