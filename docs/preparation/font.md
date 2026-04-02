@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Typography Selection"
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Typography Selection
@@ -37,7 +37,7 @@ Choose fonts with **clean and simple shapes**. Avoid overly decorative or comple
 Ensure that characters are **clearly distinguishable**, especially commonly confused ones such as `i`, `l`, `1`, `0`, and `O`.
 
 :::info Concrete Examples
-See [Avoiding Character Confusion](#avoiding-character-confusion-) for more details.
+See **[Avoiding Character Confusion](#avoiding-character-confusion-)** for more details.
 :::
 
 ### 3. Spacing and Proportions
@@ -61,7 +61,7 @@ The font should remain **legible at both small and large sizes**, especially on 
 
 ![Example of readable font](img/readability.JPG)
 
-*Carter One font from the Google Fonts: (https://fonts.google.com/specimen/Carter+One)*
+*Carter One font from the Google Fonts: [Carter One](https://fonts.google.com/specimen/Carter+One)*
 
 ### 6. Consistency Across the Interface
 Use a limited number of fonts and maintain **consistent typography** throughout the application to avoid confusion. Inconsistent fonts can make the interface look cluttered, reduce readability, and negatively affect the user experience.
@@ -140,7 +140,7 @@ Certain letters and numbers can be easily confused due to their similar shapes. 
 - Avoid overly decorative fonts that may **interfere with comprehension**
 
 :::info Link
-You can read more about **Typography** in **Google Fonts Articles**: (https://fonts.google.com/knowledge/choosing_type)
+You can read more about **Typography** in **Google Fonts Articles**: [Choosing Type](https://fonts.google.com/knowledge/choosing_type)
 :::
 
 ---
