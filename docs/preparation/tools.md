@@ -129,7 +129,8 @@ Use tools that integrate into coding and design workflows:
 - `Lighthouse`  
 - `Storybook`  
 - `Stark`  
-- Manual testing  
+- **Manual testing** – Use `Tab` / `Shift + Tab` to check **focus visibility and tab order**.  
+  *See [Focus Management](/docs/development/focus.md) for more information.* 
 
 **Benefits:**
 

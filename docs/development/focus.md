@@ -48,7 +48,7 @@ All scenarios should provide clear and consistent visual feedback.
 
 Keyboard navigation is the primary mechanism that makes focus essential.
 
-Users navigate interfaces using:
+Users navigate websites using:
 
 - `Tab` ➜ move forward  
 - `Shift + Tab` ➜ move backward  
@@ -57,56 +57,6 @@ Users navigate interfaces using:
 :::tip Tip
 More information about **keyboard shortcuts** and keyboard navigation: [Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
 :::
-
-### Live Example 🎮
-
-Try navigating the form below using your keyboard:
-
-- Press `Tab` to move between elements  
-- Press `Shift + Tab` to go backwards  
-- Press `Enter` to activate the button  
-
-```html live
-function DemoForm() {
-  const [msg, setMsg] = React.useState("");
-  const inputStyle = {
-    display: "block",
-    marginBottom: "10px",
-    padding: "8px",
-    width: "100%"
-  };
-
-  return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        setMsg("✅ Form submitted successfully!");
-      }}
-      style={{ maxWidth: "300px" }}
-    >
-      <input type="email" defaultValue="user@example.com" required style={inputStyle} />
-      <input type="password" defaultValue="password123" required style={inputStyle} />
-      <button type="submit" style={{ padding: "8px 12px", cursor: "pointer" }}>
-        Submit
-      </button>
-
-      {msg && <p style={{ marginTop: "10px" }}>{msg}</p>}
-    </form>
-  );
-}
-```
-
-**Explanation:**
-
-When navigating this form using the `Tab` key, focus moves in the following order:
-
-1. Email input  
-2. Password input  
-3. Submit button  
-
-Each element receives a visible focus indicator (provided by the browser or custom CSS), allowing users to clearly understand their current position.
-
----
 
 ## Hover vs Focus 🖱️
 
@@ -131,37 +81,12 @@ Hover effects provide immediate feedback for mouse users by indicating that an e
 }
 ```
 
-### Live Example 🎮 
-
-Hover over the button below.
-
-```html live
-function HoverButton() {
-  const [hover, setHover] = React.useState(false);
-
-  return (
-    <button
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      style={{
-        padding: "10px 20px",
-        backgroundColor: hover ? "#b2b0b0" : "#f0f0f0",
-        border: "none",
-        cursor: "pointer",
-      }}
-    >
-      Hover me
-    </button>
-  );
-}
-```
-
 ## `:focus` {#focus}
 
 The focus state indicates that an element is selected and ready for interaction.
 
 ```css
-.ui-input:focus {
+.input:focus {
   outline: none;
   border-color: #0033cc;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -179,38 +104,12 @@ Removing outlines without providing an alternative leads to inaccessible interfa
 - Replace default outline if removed
 - Use multiple visual cues (colour + shadow + movement)
 
-### Live Example 🎮
-
-Focus on the input field below.
-
-```html live
-function FocusInput() {
-  const [focused, setFocused] = React.useState(false);
-
-  return (
-    <input
-      type="text"
-      placeholder="Focus me"
-      onFocus={() => setFocused(true)}
-      onBlur={() => setFocused(false)}
-      style={{
-        padding: "10px",
-        width: "200px",
-        border: focused ? "3px solid #0033cc" : "3px solid #ccc",
-        boxShadow: focused ? "0 0.5rem 1rem rgba(0, 0, 0, 0.2)" : "none",
-        outline: "none",
-      }}
-    />
-  );
-}
-```
-
 ## `:focus-visible` (Recommended) {#focus-visible}
 
 The `:focus-visible` pseudo-class allows developers to display focus indicators only when needed, typically for keyboard users.
 
 ```css
-.add-button:focus-visible {
+.button:focus-visible {
   outline: 0.25rem solid #005fcc;
 }
 ```
@@ -220,61 +119,126 @@ The `:focus-visible` pseudo-class allows developers to display focus indicators 
 - Reduces unnecessary visual feedback for mouse users
 - Ensures consistent behavior across browsers
 
-### Live Example 🎮
-
-- Use **Tab** to navigate and see the focus indicator appear only for keyboard users.  
-- Use **Shift + Tab** to go backward and **Enter** to activate the button.
-
+## Live Example 🎮
 
 ```html live
-function FocusVisibleDemo() {
-  const [usingKeyboard, setUsingKeyboard] = React.useState(false);
+function AccessibleForm() {
+  const [msg, setMsg] = React.useState("");
 
   return (
-    <div
-      style={{ display: "flex", flexDirection: "column", gap: "10px", maxWidth: "250px" }}
-      onKeyDown={(e) => e.key === "Tab" && setUsingKeyboard(true)}
-      onMouseDown={() => setUsingKeyboard(false)}
-    >
-      <input
-        placeholder="Start here"
-        style={{ padding: "8px", border: "1px solid #ccc" }}
-      />
+    <div>
+      <style>{`
+        .form {
+          max-width: 300px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
 
-      <button
-        style={{
-          padding: "8px 12px",
-          border: "2px solid #ccc",
-          backgroundColor: "#f0f0f0",
-          cursor: "pointer",
-          outline: "none",
-          transition: "all 0.2s",
-        }}
-        onFocus={(e) => {
-          if (usingKeyboard) e.currentTarget.style.border = "3px solid #005fcc";
-        }}
-        onBlur={(e) => {
-          e.currentTarget.style.border = "2px solid #ccc";
+        .form input {
+          padding: 8px;
+          border: 2px solid #ccc;
+          outline: none;
+          transition: all 0.2s;
+        }
+
+        /* focus */
+        .form input:focus {
+          border-color: #0033cc;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .form button {
+          padding: 8px 12px;
+          border: 3px solid transparent;
+          background-color: #f0f0f0;
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+
+        /* hover */
+        .form button:hover {
+          background-color: #b9b9b9;
+        }
+
+        /* focus-visible */
+        .form button:focus-visible {
+          border-color: #005fcc;
+          outline: none;
+        }
+
+        .form p {
+          margin-top: 5px;
+        }
+      `}</style>
+
+      <form
+        className="form"
+        onSubmit={(e) => {
+          e.preventDefault();
+          setMsg("✅ Account created successfully!");
         }}
       >
-        Focus me
-      </button>
+        <input type="text" placeholder="Full name" defaultValue="Sam Tomson" required />
+        <input type="email" placeholder="Email address" defaultValue="user@example.com" required />
+        <input type="password" placeholder="Password" defaultValue="password123" required />
+
+        <button type="submit">Create account</button>
+
+        {msg && <p>{msg}</p>}
+      </form>
     </div>
   );
 }
 ```
+> Use `Tab` to navigate through the inputs and button. Focus may move outside the demo, but only 4 interactive elements are included here.
+
+**How to test:**
+
+- **Keyboard Navigation** — use `Tab`, `Shift + Tab`, and `Enter`.
+
+  When navigating this form using the `Tab` key, focus moves in the following order:
+
+  1. Name input  
+  2. Email input  
+  3. Password input  
+  4. Create Account button (press `Enter` to submit the form)
+
+  *If these elements were the only focusable elements on the page, focus would return to the first element after the last one.*
+
+- **`:hover`** — hover over the "Create Account" button.  
+  The background changes from white to grey.
+
+- **`:focus`** — click on any input field.  
+  A blue border and shadow will appear, indicating that the element is active.
+
+- **`:focus-visible`** — use `Tab` to navigate to the button.  
+  When the button is focused via keyboard, a blue border appears.  
+  Clicking or hovering only changes the background colour.
+
+  For **mouse users**, the indicator is less visually prominent (background change from white to grey), as they navigate through the website independently.  
+
+  In contrast, for **keyboard users**, the focus indicator is more visible (blue border), as they need to understand their current position while navigating step by step.
+
+  :::caution Attention
+  In this example, a border is added so that users can recognize the focused element even without relying on color. If only the color of the border changes, some users may not perceive the difference. More details are provided in the next section.
+  :::
 
 ## Accessibility for Colour-Blind Users 🎨 {#colour-blind}
 
-Relying only on colour is insufficient for accessibility.
+Relying only on colour is insufficient for accessible design, as some users may not perceive colour differences.
+
+:::tip Tip
+For guidance on choosing accessible colour combinations, see the **[Colour Selection](../preparation/colours)** section.
+:::
 
 **❌ Incorrect:**
 
-Only changing the colour
+Using only colour changes to indicate focus or interaction.
 
 **✅ Correct:**
 
-Combine multiple indicators:
+Combine multiple visual indicators:
 - Border
 - Shadow
 - Background change
@@ -286,20 +250,75 @@ Combine multiple indicators:
   box-shadow: 0 0 0 3px rgba(0, 95, 204, 0.5);
 }
 ```
+This approach ensures that focus remains visible even in grayscale or low-contrast conditions.
 
-This ensures that focus remains visible even in grayscale or low-contrast perception.
+**Example:**
+
+![4 examples of button with different CSS styles](img/focus.jpg)
+
+**Explanation of the example:**
+
+1. **Default state**  
+   The button has a standard black border with no additional visual indicators.
+
+2. **Colour-only change (hover)**  
+   The border changes from black to blue when hovered.  
+   This relies solely on colour and may not be noticeable for users with colour vision deficiencies.
+
+3. **Multiple visual indicators (hover)**  
+   The button uses both a blue border and a shadow.  
+   The added shadow provides an additional visual cue, making the interaction more noticeable.
+
+4. **Grayscale simulation**  
+   The same button is shown in grayscale to simulate how users with limited colour perception may experience it.  
+   The border colour change alone becomes difficult to distinguish, while the shadow remains visible.
+
+This example demonstrates why relying only on colour is insufficient and highlights the importance of combining multiple visual indicators.
 
 ## Pointer Feedback 👆
 
-Mouse pointer styles also communicate interactivity:
+Mouse pointer styles convey interactivity and help users understand which elements can be clicked:
 
-- Default pointer → non-interactive element
-- Pointer (hand) → clickable element
+> Usually, **pointer** styles are **correct by default** in browsers, but it's good practice to check that interactive and non-interactive elements are distinguishable.
+
+| Pointer Type        | Example | Description |
+|--------------------|--------|-------------|
+| **Default pointer** | ![Default pointer](img/normal.png) | Indicates a non-interactive element. |
+| **Pointer (hand)**  | ![Pointer hand](img/link.png) | Indicates a clickable or interactive element (e.g., links, buttons). |
 
 These behaviours should remain consistent across the application.
 
-## ⚠️ Common Mistakes
-- Removing focus outlines without replacement
-- Using only colour as an indicator
-- Ignoring keyboard navigation
-- Inconsistent focus styles across components
+:::info Link
+These cursors and others can be found here: **[About Cursors](https://learn.microsoft.com/en-us/windows/win32/menurc/about-cursors)**
+:::
+
+:::tip Tools to Test
+Developers can **verify focus management and keyboard accessibility** using accessibility tools such as:
+
+- **Manual testing** – Navigate the interface using `Tab` / `Shift + Tab` and check focus indicators on all interactive elements.  
+  *Ensures that keyboard navigation, tab order, and visible focus are logical and usable for real users.*
+
+- **Screen readers** like `NVDA` – [Download NVDA](https://www.nvaccess.org/download/)  
+  *Simulates how assistive technologies announce focus changes, helping verify logical tab order and focus visibility for keyboard users.*
+
+- `Stark` – [Stark Website](https://www.getstark.co/for-developers/)  
+  *Checks visual focus order and contrast for interactive elements, including color-blind accessibility.*
+
+- `WAVE evaluation tool` – [WAVE Website](https://wave.webaim.org/)  
+  *Visually highlights focusable elements and missing focus indicators in the rendered page, helping developers spot inaccessible components.*
+
+- `Storybook` – [Storybook Website](https://storybook.js.org/)  
+  *Allows isolated testing of focus behavior and keyboard navigation on individual UI components before integration.*
+
+These tools help ensure that **keyboard navigation, tab order, and visible focus indicators** are correctly implemented and functional for all users.
+:::
+
+## Key Idea 💡
+
+- **Hover (`:hover`)** – Provides immediate visual feedback for mouse users, e.g., background change.  
+- **Focus (`:focus`)** – Indicates the active element; always use clear visual cues like border, shadow, or background.  
+- **Focus-visible (`:focus-visible`)** – Highlights elements for keyboard users only, reducing visual noise for mouse users.  
+- **Colour accessibility** – Never rely solely on colour; combine multiple indicators (border, shadow, background, icons/text).  
+- **Pointer feedback** – Use consistent cursor styles to indicate interactivity.  
+
+**Common mistakes:** removing outlines without alternatives, relying only on colour, ignoring keyboard navigation, inconsistent focus styles.
