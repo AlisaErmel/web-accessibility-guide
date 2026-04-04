@@ -93,8 +93,10 @@ Used for dynamic content updates, allowing screen readers to announce changes in
 ```
 When the cart count changes, screen readers politely notify the user of the updated value.
 
-:::note Note
+:::info Link
 These attributes represent the most commonly used ARIA patterns in modern web applications. Additional attributes (e.g., `aria-describedby`, `aria-pressed`) may be used in more complex interactive components.
+
+More ARIA labels here: **[ARIA: aria-label attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label)**
 :::
 
 :::caution Attention
