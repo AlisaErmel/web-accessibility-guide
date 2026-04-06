@@ -23,10 +23,10 @@ Based on these criteria, the following categories were used:
 ---
 
 :::note Note
-**Tested** below indicates that the author applied these tools in a self-developed web application. 😉
+**Tested** below indicates that the author applied these tools in a self-developed web application.
 :::
 
-### 1. Automated Testing Tools ⚡
+### 1. Automated Testing Tools
 
 - **Purpose:** Detect code-level accessibility violations automatically.  
 - **When to use:** During development for early detection of issues.  
@@ -43,7 +43,7 @@ Based on these criteria, the following categories were used:
 
 ---
 
-### 2. Assistive Technology Testing 🖥️
+### 2. Assistive Technology Testing
 
 - **Purpose:** Simulate the experience of users relying on assistive technologies.  
 - **When to use:** Post-development, as a final check of user experience.  
@@ -64,7 +64,7 @@ Based on these criteria, the following categories were used:
 
 ---
 
-### 3. Design Accessibility Tools 🎨
+### 3. Design Accessibility Tools
 
 - **Purpose:** Evaluate visual aspects of the interface for accessibility.  
 - **When to use:** During design and development.  
@@ -79,7 +79,7 @@ Based on these criteria, the following categories were used:
 
 ---
 
-### 4. Web Accessibility Evaluation Tools🔍
+### 4. Web Accessibility Evaluation Tools
 
 - **Purpose:** Visually highlight accessibility issues on the web page.  
 - **When to use:** Post-development for a final overview.  
@@ -94,7 +94,7 @@ Based on these criteria, the following categories were used:
 
 ---
 
-### 5. Component Development & Isolation Tools 🧩
+### 5. Component Development & Isolation Tools
 
 - **Purpose:** Build and test individual UI components in isolation.  
 - **When to use:** During development.  
@@ -109,7 +109,7 @@ Based on these criteria, the following categories were used:
 
 ---
 
-### 6. Manual Testing 👨‍💻
+### 6. Manual Testing
 
 - **Purpose:** Detect usability and interaction issues that automated tools may miss.  
 - **When to use:** Both during development and post-development.  

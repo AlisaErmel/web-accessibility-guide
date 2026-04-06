@@ -30,8 +30,11 @@ Managing keyboard focus is essential for users who navigate without a mouse. Cle
 ### 📱 Responsive Web Design
 Responsive design ensures that content is accessible across different devices and screen sizes, including mobile phones, tablets, and desktops.
 
-### 🧩 Accessible UI Components
-UI components such as buttons, forms, modals, and navigation elements must be designed and implemented with accessibility in mind to ensure consistent and inclusive interaction.
+### 🖼️ Images and Alt Text
+Images must include meaningful alt text so that users relying on screen readers can understand their purpose. Proper use of alternative text ensures that visual content is accessible and does not create barriers.
+
+### 🎬 Audio & Video Accessibility
+Multimedia content should include captions, audio descriptions, and transcripts to ensure accessibility for users with hearing or visual impairments. These features provide alternative ways to access information conveyed through audio and visuals.
 
 ## Summary
 

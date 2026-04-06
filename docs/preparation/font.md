@@ -3,13 +3,13 @@ sidebar_label: "Typography Selection"
 sidebar_position: 6
 ---
 
-# Typography Selection
+# Typography Selection ✍️
 
 This section describes the principles and rationale behind choosing the font family for the web application, focusing on accessibility and user experience.
 
 ---
 
-## Why Typography Matters ✍️
+## Why Typography Matters
 
 Fonts influence how users **perceive and interact** with content. The right typeface can:
 
@@ -21,7 +21,7 @@ When designing for accessibility, typography is especially important for users w
 
 ---
 
-## How to Choose an Accessible Font 🧩
+## How to Choose an Accessible Font
 
 When selecting a font for a web application, several key factors should be considered to ensure readability and accessibility:
 

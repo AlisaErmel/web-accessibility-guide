@@ -9,7 +9,7 @@ A clear and consistent page structure is essential for building accessible web a
 
 ---
 
-## Why Structure Matters ❓
+## Why Structure Matters
 
 Proper structuring ensures that:
 
@@ -24,7 +24,7 @@ Following proper heading hierarchy and semantic structure supports WCAG’s **Pe
 
 ---
 
-## Semantic HTML 🧩
+## Semantic HTML
 
 Using **semantic HTML elements** is a key best practice for accessibility. These elements provide meaning to the content and create recognizable **landmarks** for assistive technologies, reducing the need for additional ARIA attributes in many cases.
 
@@ -52,7 +52,7 @@ Non-semantic elements like `<div>` and `<span>` do not convey meaning and should
 </main>
 ```
 
-## `<section>` vs `<div>` ⚖️
+## `<section>` vs `<div>`
 
 Understanding the difference between `<section>` and `<div>` is important for building accessible page structures.
 
@@ -97,7 +97,7 @@ Assistive technologies cannot identify this as a distinct section unless additio
 Use **`<section>`** (or other semantic elements) whenever the content has a clear purpose or topic. Use **`<div>`** only when no suitable semantic element exists.
 :::
 
-## Heading Hierarchy 🔤
+## Heading Hierarchy
 
 **Headings** define the structure of content. A clear hierarchy helps users understand the relationship between sections and improves navigation for screen reader users.
 
@@ -117,7 +117,7 @@ Avoid skipping levels (e.g., jumping from `<h1>` to `<h3>`), as this can confuse
 Proper heading hierarchy also helps maintain a **logical tab order** for keyboard navigation.
 :::
 
-## Navigation 🧭
+## Navigation
 
 **Navigation** should be clearly defined so users can move easily between pages or sections.
 

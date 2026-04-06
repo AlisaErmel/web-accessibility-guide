@@ -3,7 +3,7 @@ sidebar_label: "Audio & Video Accessibility"
 sidebar_position: 7
 ---
 
-# Audio and Video Accessibility
+# Audio and Video Accessibility 🎬
 
 Accessible audio and video content ensures that all users — including people with hearing, visual, or cognitive impairments — can understand and interact with media.
 
