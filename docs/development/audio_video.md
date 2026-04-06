@@ -43,6 +43,15 @@ This applies to **video content**, where visual information is not available thr
 
 > *[The man enters the room and shakes hands.]*
 
+:::tip Tip
+- **Purpose:** Narrate **important visual content** for blind/visually impaired users.
+- **Sync:** Must be synchronized with the video.
+- **Location:** Provided as a s**eparate audio track**; optionally a description panel near the video.
+- **File type:** `.mp3` or integrated as a secondary track in the video.
+- **Player Controls:** Required (for play/pause, description toggle).
+- **Other:** Only describe **essential visuals**, keep narration concise, provide a **toggle button** to enable/disable.
+:::
+
 :::info Link
 More information about **Descriptions** can be found here: [Description of Visual Information](https://www.w3.org/WAI/media/av/description/)
 :::
@@ -81,6 +90,15 @@ Applicable to **audio content** and **video with meaningful audio**.
   <track src="captions.vtt" kind="subtitles" srclang="en" label="English"> 
 </video>
 ```
+
+:::tip Tip
+- **Purpose:** Show **spoken dialogue and important sounds**.
+- **Sync:** Must be synchronized with audio.
+- **Location:** Directly associated with the video — embedded via `<track>` in `<video>` or in a visible caption area below the video.
+- **File type:** `.vtt` (WebVTT) or `.srt` files.
+- **Player Controls:** Required (for play/pause, caption toggle).
+- **Other:** Include speaker names and non-speech sounds (`[applause]`, `[music]`). Should be toggleable.
+:::
 
 :::info Link
 More information about **Captions** can be found here: [Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/)
@@ -127,6 +145,15 @@ Transcripts are typically accessed using:
   </div>
 </div>
 ```
+
+:::tip Tip
+- **Purpose:** Full **text alternative** for audio and video content.
+- **Sync:** Not required to be in real-time, but **timestamps optional**.
+- **Location:** Place **below or next to media player**. Clearly label with `aria-describedby` or headings for screen readers.
+- **File type:** `.txt`, `.html`, `.md`, or embedded in page content.
+- **Player Controls:** Not required (text-only).
+- **Other:** Include **speaker names**, **sound cues**, and visual context. Structure for readability.
+:::
 
 :::info Link
 More information about **Transcripts** can be found here: [Transcripts](https://www.w3.org/WAI/media/av/transcripts/)
