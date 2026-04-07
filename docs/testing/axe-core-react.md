@@ -62,11 +62,17 @@ Issues will appear in the browser console.
 
 In this example, the image does not have alternative text (`alt`), which results in an error message in the console.
 
-:::info Link
-More information about: **[GitHub axe-core/react](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react)**
-:::
+## Limitations
+
+- Cannot detect usability issues
+- Requires developer interpretation
 
 ## Tips & Best Practices 💡
+
 - Use only in **development mode**
 - Fix issues immediately to avoid accumulation
 - Combine with manual testing
+
+:::info Link
+More information: **[GitHub axe-core/react](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react)**
+:::
