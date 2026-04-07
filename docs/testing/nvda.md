@@ -5,8 +5,6 @@ sidebar_position: 4
 
 # NVDA (Screen Reader)
 
-## What is this tool?
-
 **NVDA** is a free screen reader for Windows that allows testing accessibility for visually impaired users.
 
 > This document provides information specifically about **NVDA**, which the author used to validate accessibility in practice.

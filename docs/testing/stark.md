@@ -5,8 +5,6 @@ sidebar_position: 5
 
 # Stark
 
-## What is this tool?
-
 **Stark** is a tool for testing visual accessibility aspects, including color contrast and color vision deficiencies.
 
 ---
