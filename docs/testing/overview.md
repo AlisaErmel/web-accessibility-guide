@@ -14,14 +14,14 @@ Accessibility testing ensures that your application is:
 
 ---
 
-## What This Section Covers
+## About Tools
 
-This section provides:
+The tools described here were **selected and introduced** in the **[Choice of the Tools](/docs/preparation/tools.md)** document.  
 
-- Step-by-step guides for using accessibility tools  
-- Practical testing approaches  
-- Tips and best practices  
-- Real-world testing methods used by the author  
+In this section, you will learn **how to use these tools effectively**, including:
+- step-by-step instructions  
+- tips and best practices  
+- real-world testing methods used by the author  
 
 ---
 
