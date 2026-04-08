@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Accessibility Technical Documentation',
+  title: 'Accessibility Guidelines for Web Development',
   tagline: 'A step-by-step guide on how to make your web application accessible.',
   favicon: 'img/mylogo.png',
 
@@ -54,7 +54,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card image
-    image: 'img/accessibility-social-card.png',
+    image: 'img/agwd-social-card.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
