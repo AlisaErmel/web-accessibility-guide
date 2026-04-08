@@ -37,8 +37,8 @@ When implementing focus, multiple interaction methods must be considered:
 
 1. **Mouse hover** ➜ [`:hover`](#hover)
 2. **Focus state (active element)** ➜ [`:focus`](#focus)
-3. **Keyboard navigation** ➜ [`:focus-visible`](#focus-visible)
-4. **Users with colour vision deficiencies** ➜ [Accessibility for Colour-Blind Users](#colour-blind)
+3. **Keyboard navigation** ➜ [`:focus-visible`](#focus-visible-recommended)
+4. **Users with colour vision deficiencies** ➜ [Accessibility for Colour-Blind Users](#accessibility-for-colour-blind-users-)
 
 All scenarios should provide clear and consistent visual feedback.
 
@@ -71,7 +71,7 @@ It is important to distinguish between these states:
 
 ---
 
-## `:hover` {#hover}
+## `:hover`
 
 Hover effects provide immediate feedback for mouse users by indicating that an element is interactive.
 
@@ -81,7 +81,7 @@ Hover effects provide immediate feedback for mouse users by indicating that an e
 }
 ```
 
-## `:focus` {#focus}
+## `:focus`
 
 The focus state indicates that an element is selected and ready for interaction.
 
@@ -104,7 +104,7 @@ Removing outlines without providing an alternative leads to inaccessible interfa
 - Replace default outline if removed
 - Use multiple visual cues (colour + shadow + movement)
 
-## `:focus-visible` (Recommended) {#focus-visible}
+## `:focus-visible` (Recommended)
 
 The `:focus-visible` pseudo-class allows developers to display focus indicators only when needed, typically for keyboard users.
 
@@ -224,7 +224,7 @@ function AccessibleForm() {
   In this example, a border is added so that users can recognize the focused element even without relying on color. If only the color of the border changes, some users may not perceive the difference. More details are provided in the next section.
   :::
 
-## Accessibility for Colour-Blind Users 🎨 {#colour-blind}
+## Accessibility for Colour-Blind Users 🎨
 
 Relying only on colour is insufficient for accessible design, as some users may not perceive colour differences.
 
