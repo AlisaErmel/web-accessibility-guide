@@ -25,7 +25,7 @@ Alternatively, for design: **[Figma plugin](https://www.figma.com/community/plug
 
 ### 2. Select what you want to test:
 
-![Example of Stark Chrome extension](img/stark.JPG)
+![Example of Stark Chrome extension](img/stark.jpg)
 
 ## What to test
 

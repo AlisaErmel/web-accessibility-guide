@@ -22,7 +22,7 @@ During the development phase and after deployment for verification.
 
 **Example:**
 
-![Example of the Lighthouse evaluation](img/lighthouse.JPG)
+![Example of the Lighthouse evaluation](img/lighthouse.jpg)
 
 This screenshot shows the possible results of a Lighthouse evaluation. The same report also includes a detailed section indicating which tests your application passed and which failed (if any).
 

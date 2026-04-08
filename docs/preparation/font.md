@@ -30,7 +30,7 @@ Choose fonts with **clean and simple shapes**. Avoid overly decorative or comple
 
 | Good (Clean Font) | Bad (Too Decorative Font) |
 |------------------|----------------------|
-| ![Clean](img/clean.JPG) | ![Decorative](img/decorative.JPG) |
+| ![Clean](img/clean.jpg) | ![Decorative](img/decorative.jpg) |
 | *Comic Relief from Google Fonts ([link](https://fonts.google.com/specimen/Comic+Relief))* | *Butcherman from Google Fonts ([link](https://fonts.google.com/specimen/Butcherman))* |
 
 ### 2. Character Distinction
@@ -45,7 +45,7 @@ Fonts should have **adequate spacing between letters (kerning)** and balanced pr
 
 | Good (Proper Spacing) | Bad (Crowded Text) |
 |----------------------|-------------------|
-| ![Good spacing](img/good_spacing.JPG) | ![Bad spacing](img/bad_spacing.JPG) |
+| ![Good spacing](img/good_spacing.jpg) | ![Bad spacing](img/bad_spacing.jpg) |
 | Clear kerning, easy to read | Letters too close, hard to read |
 
 ### 4. Emotional Perception
@@ -53,13 +53,13 @@ Fonts can influence how users feel. Prefer **neutral or friendly-looking fonts**
 
 | Positive / Friendly | Aggressive / Sharp |
 |-----------------------|----------------------|
-| ![Friendly font](img/friendly.JPG) | ![Aggressive font](img/agressive.JPG) |
+| ![Friendly font](img/friendly.jpg) | ![Aggressive font](img/agressive.jpg) |
 | *Coiny from Google Fonts ([link](https://fonts.google.com/specimen/Coiny))* | *Eater from Google Fonts ([link](https://fonts.google.com/specimen/Eater))* |
 
 ### 5. Readability at Different Sizes
 The font should remain **legible at both small and large sizes**, especially on different devices and screen resolutions.
 
-![Example of readable font](img/readability.JPG)
+![Example of readable font](img/readability.jpg)
 
 *Carter One font from the Google Fonts: [Carter One](https://fonts.google.com/specimen/Carter+One)*
 
@@ -93,7 +93,7 @@ Certain letters can be **easily misread** when closely spaced. For example, `rn`
 
 | Good Example | Bad Example |
 |-------------|------------|
-| ![Good Example](img/rn_good.JPG) | ![Bad Example](img/rn_bad.JPG) |
+| ![Good Example](img/rn_good.jpg) | ![Bad Example](img/rn_bad.jpg) |
 | *Noto Sans Mono font from the Google Fonts: [link](https://fonts.google.com/noto/specimen/Noto+Sans+Mono)* | *Oi font from the Google Fonts: [link](https://fonts.google.com/specimen/Oi)* |
 
 ---
@@ -104,7 +104,7 @@ Symbols like lowercase `i`, exclamation mark `!`, lowercase `l`, and numeral `1`
 
 | Good Example | Bad Example |
 |-------------|------------|
-| ![Good Example](img/l_good.JPG) | ![Bad Example](img/l_bad.JPG) |
+| ![Good Example](img/l_good.jpg) | ![Bad Example](img/l_bad.jpg) |
 | *Noto Sans Mono font from the Google Fonts: [link](https://fonts.google.com/noto/specimen/Noto+Sans+Mono)* | *Oi font from the Google Fonts: [link](https://fonts.google.com/specimen/Oi)* |
 
 ---
@@ -115,7 +115,7 @@ The numeral `0`, uppercase `O`, lowercase `o`, and letters `C`/`c` are often con
 
 | Good Example | Bad Example |
 |-------------|------------|
-| ![Good Example](img/o_good.JPG) | ![Bad Example](img/o_bad.JPG) |
+| ![Good Example](img/o_good.jpg) | ![Bad Example](img/o_bad.jpg) |
 | *Noto Sans Mono font from the Google Fonts: [link](https://fonts.google.com/noto/specimen/Noto+Sans+Mono)* | *Oi font from the Google Fonts: [link](https://fonts.google.com/specimen/Oi)* |
 
 ---
@@ -126,7 +126,7 @@ Certain letters and numbers can be easily confused due to their similar shapes. 
 
 | Good Example | Bad Example |
 |-------------|------------|
-| ![Good Example](img/sz_good.JPG) | ![Bad Example](img/sz_bad.JPG) |
+| ![Good Example](img/sz_good.jpg) | ![Bad Example](img/sz_bad.jpg) |
 | *Noto Sans Mono font from Google Fonts: [link](https://fonts.google.com/noto/specimen/Noto+Sans+Mono)* | *Oi font from Google Fonts: [link](https://fonts.google.com/specimen/Oi)* |
 
 ---

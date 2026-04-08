@@ -58,7 +58,7 @@ Issues will appear in the browser console.
 
 **Example:**
 
-![Example of axe issue in console](img/axe.JPG)
+![Example of axe issue in console](img/axe.jpg)
 
 In this example, the image does not have alternative text (`alt`), which results in an error message in the console.
 

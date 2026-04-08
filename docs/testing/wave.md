@@ -19,7 +19,7 @@ After the development phase for final accessibility testing.
 2. Enter your website URL
 3. Review the evaluation results:
 
-![Example of Wave evaluation results](img/wave.JPG)
+![Example of Wave evaluation results](img/wave.jpg)
 
 In this example, the public website `https://www.w3schools.com/` was used.
 

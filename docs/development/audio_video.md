@@ -37,7 +37,7 @@ This applies to **video content**, where visual information is not available thr
 
 #### Example:
 
-![Screenshot from the YouTube video](img/description.JPG)
+![Screenshot from the YouTube video](img/description.jpg)
 
 *A screenshot from the YouTube video*
 
@@ -78,7 +78,7 @@ Applicable to **audio content** and **video with meaningful audio**.
 
 #### Example:
 
-![Screenshot from the YouTube video](img/captions.JPG)
+![Screenshot from the YouTube video](img/captions.jpg)
 
 *A screenshot from the YouTube video*
 

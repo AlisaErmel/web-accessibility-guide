@@ -84,7 +84,7 @@ npm run storybook
 
 **The UI component will be displayed in the browser:**
 
-![Example of Input component in Storybook](img/storybook.JPG)
+![Example of Input component in Storybook](img/storybook.jpg)
 
 ## What to test
 
