@@ -22,7 +22,7 @@ After the development phase for final accessibility testing.
 Download from:
 https://www.nvaccess.org/download/
 
-:::info Link
+:::info[Link]
 A detailed explanation **YouTube video** about how to **download** and **use NVDA**: [NVDA Screen Reader Tutorial: How to Use It for Accessibility Testing](https://www.youtube.com/watch?v=aAh1PFsgcBY)
 :::
 
@@ -65,7 +65,7 @@ After the development phase for final accessibility testing.
 
 The following example shows **real output** from NVDA, demonstrating how it announces content from the beginning of this documentation when using the Speech Viewer.
 
-:::note Note
+:::note[Note]
 The **Speech Viewer** is especially useful for **debugging accessibility issues** or for developers who want to see exactly what a visually impaired user hears.
 :::
 

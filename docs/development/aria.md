@@ -33,7 +33,7 @@ Defines the purpose of an element for assistive technologies.
 ```
 Here, the `<div>` explicitly declares its role as navigation. This is necessary because `<div>` has no semantic meaning by default.
 
-:::caution Attention
+:::caution[Attention]
 Do not change native semantics unnecessarily (e.g., avoid adding `role="button"` to a `<button>`).
 :::
 
@@ -93,17 +93,17 @@ Used for dynamic content updates, allowing screen readers to announce changes in
 ```
 When the cart count changes, screen readers politely notify the user of the updated value.
 
-:::info Link
+:::info[Link]
 These attributes represent the most commonly used ARIA patterns in modern web applications. Additional attributes (e.g., `aria-describedby`, `aria-pressed`) may be used in more complex interactive components.
 
 More ARIA labels here: **[ARIA: aria-label attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label)**
 :::
 
-:::caution Attention
+:::caution[Attention]
 Incorrect use of ARIA can reduce accessibility, so it is often summarized as: ***“No ARIA is better than bad ARIA.”***
 :::
 
-:::tip Tools to Test
+:::tip[Tools to Test]
 Developers can **verify ARIA attributes** using accessibility tools such as:
 
 - `@axe-core/react` – [GitHub repository](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react)  

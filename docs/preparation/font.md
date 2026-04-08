@@ -36,7 +36,7 @@ Choose fonts with **clean and simple shapes**. Avoid overly decorative or comple
 ### 2. Character Distinction
 Ensure that characters are **clearly distinguishable**, especially commonly confused ones such as `i`, `l`, `1`, `0`, and `O`.
 
-:::info Concrete Examples
+:::info[Concrete Examples]
 See **[Avoiding Character Confusion](#avoiding-character-confusion-)** for more details.
 :::
 
@@ -139,7 +139,7 @@ Certain letters and numbers can be easily confused due to their similar shapes. 
 - Test typography for **users with cognitive or visual challenges**  
 - Avoid overly decorative fonts that may **interfere with comprehension**
 
-:::info Link
+:::info[Link]
 You can read more about **Typography** in **Google Fonts Articles**: [Choosing Type](https://fonts.google.com/knowledge/choosing_type)
 :::
 

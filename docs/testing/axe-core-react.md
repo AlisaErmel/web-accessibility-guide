@@ -27,7 +27,7 @@ During the development phase.
 npm install --save-dev @axe-core/react
 ```
 
-:::tip Tip
+:::tip[Tip]
 Using `--save-dev` ensures that the `@axe-core/react` library is installed as a **development dependency**. This means it will only be used during development and will not be included in the production build.
 :::
 
@@ -48,7 +48,7 @@ if (process.env.NODE_ENV !== "production") { // Accessibility checks only during
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
-:::caution Caution
+:::caution[Caution]
 It is crucial to run `@axe-core/react` in **development** environment, as it may negatively impact performance in a production environment.
 :::
 
@@ -73,6 +73,6 @@ In this example, the image does not have alternative text (`alt`), which results
 - Fix issues immediately to avoid accumulation
 - Combine with manual testing
 
-:::info Link
+:::info[Link]
 More information: **[GitHub axe-core/react](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react)**
 :::

@@ -22,7 +22,7 @@ sidebar_position: 8
 npm create storybook@latest
 ```
 
-:::info Link
+:::info[Link]
 More information about installation: **[Install Storybook](https://storybook.js.org/docs/get-started/install)**
 :::
 
@@ -72,7 +72,7 @@ For demonstration, a separate `Input` component was created to handle text input
 
 > These stories cover different states to test component behavior and accessibility.
 
-:::info Link
+:::info[Link]
 More about stories: **[What's a story?](https://storybook.js.org/docs/get-started/whats-a-story)**
 :::
 
@@ -99,6 +99,6 @@ npm run storybook
 - Test components before integration  
 - Keep stories simple   
 
-:::info Link
+:::info[Link]
 More information (Storybook Docs): **[Get started with Storybook](https://storybook.js.org/docs)**
 :::

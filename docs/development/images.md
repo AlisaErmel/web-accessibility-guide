@@ -187,11 +187,11 @@ Must always have an accessible name:
 ```
 Using a `<button>` element with an image and descriptive `alt` text ensures that screen readers recognize the element as a button and announce its purpose. This approach also provides a fallback for sighted users if the image fails to load.
 
-:::info Link
+:::info[Link]
 Learn more about making icons and images accessible: **[Functional Images](https://www.w3.org/WAI/tutorials/images/functional/)**
 :::
 
-:::tip Tools to Test
+:::tip[Tools to Test]
 Developers can **verify image accessibility and alt text** using tools such as:
 
 - **Screen readers** like `NVDA` – [Download NVDA](https://www.nvaccess.org/download/)  

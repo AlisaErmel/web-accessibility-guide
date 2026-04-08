@@ -7,7 +7,7 @@ sidebar_position: 4
 
 **Focus** is a key concept in web accessibility that ensures users can clearly identify which element on a page is currently active or ready for interaction.
 
-:::note Note
+:::note[Note]
 In technical terms, **focus is the state in which a user interface element is selected and can receive input**, typically triggered by keyboard navigation, mouse interaction, or assistive technologies.
 :::
 
@@ -25,7 +25,7 @@ Not all users interact with a website using a mouse. Many rely on:
 
 Without visible focus indicators, users may lose track of their position on the page, making interaction difficult or impossible.
 
-:::note Note
+:::note[Note]
 According to accessibility guidelines (WCAG), interactive elements must provide a **clearly visible focus indicator** to support keyboard navigation. [Focus Visible (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html)
 :::
 
@@ -54,7 +54,7 @@ Users navigate websites using:
 - `Shift + Tab` ➜ move backward  
 - `Enter` ➜ activate element
 
-:::tip Tip
+:::tip[Tip]
 More information about **keyboard shortcuts** and keyboard navigation: [Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
 :::
 
@@ -65,7 +65,7 @@ It is important to distinguish between these states:
 - **`:hover`** → triggered by mouse movement  
 - **`:focus` / `:focus-visible`** → triggered by interaction or keyboard navigation  
 
-:::caution Attention
+:::caution[Attention]
 **Focus must always remain visible**, even when a mouse is not used.
 :::
 
@@ -93,7 +93,7 @@ The focus state indicates that an element is selected and ready for interaction.
 }
 ```
 
-:::caution Attention
+:::caution[Attention]
 The **default browser outline** is removed (`outline: none`), but it is replaced with a custom visual indicator (border and shadow).
 
 Removing outlines without providing an alternative leads to inaccessible interfaces.
@@ -220,7 +220,7 @@ function AccessibleForm() {
 
   In contrast, for **keyboard users**, the focus indicator is more visible (blue border), as they need to understand their current position while navigating step by step.
 
-  :::caution Attention
+  :::caution[Attention]
   In this example, a border is added so that users can recognize the focused element even without relying on color. If only the color of the border changes, some users may not perceive the difference. More details are provided in the next section.
   :::
 
@@ -228,7 +228,7 @@ function AccessibleForm() {
 
 Relying only on colour is insufficient for accessible design, as some users may not perceive colour differences.
 
-:::tip Tip
+:::tip[Tip]
 For guidance on choosing accessible colour combinations, see the **[Colour Selection](../preparation/colours)** section.
 :::
 
@@ -288,11 +288,11 @@ Mouse pointer styles convey interactivity and help users understand which elemen
 
 These behaviours should remain consistent across the application.
 
-:::info Link
+:::info[Link]
 These cursors and others can be found here: **[About Cursors](https://learn.microsoft.com/en-us/windows/win32/menurc/about-cursors)**
 :::
 
-:::tip Tools to Test
+:::tip[Tools to Test]
 Developers can **verify focus management and keyboard accessibility** using accessibility tools such as:
 
 - **Manual testing** – Navigate the interface using `Tab` / `Shift + Tab` and check focus indicators on all interactive elements.  

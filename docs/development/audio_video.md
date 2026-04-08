@@ -26,7 +26,7 @@ Without accessibility features, important information can be **lost or misunders
 
 Audio descriptions provide **spoken narration of important visual information** in a video, such as actions, scene changes, and on-screen text.
 
-:::note Note
+:::note[Note]
 This applies to **video content**, where visual information is not available through audio alone.
 :::
 
@@ -43,7 +43,7 @@ This applies to **video content**, where visual information is not available thr
 
 > *[The man enters the room and shakes hands.]*
 
-:::tip Tip
+:::tip[Tip]
 - **Purpose:** Narrate **important visual content** for blind/visually impaired users.
 - **Sync:** Must be synchronized with the video.
 - **Location:** Provided as a s**eparate audio track**; optionally a description panel near the video.
@@ -52,7 +52,7 @@ This applies to **video content**, where visual information is not available thr
 - **Other:** Only describe **essential visuals**, keep narration concise, provide a **toggle button** to enable/disable.
 :::
 
-:::info Link
+:::info[Link]
 More information about **Descriptions** can be found here: [Description of Visual Information](https://www.w3.org/WAI/media/av/description/)
 :::
 
@@ -62,7 +62,7 @@ More information about **Descriptions** can be found here: [Description of Visua
 
 Captions provide a **textual representation of audio content**, including spoken dialogue, speaker identification, and relevant non-speech information (e.g., *[music]*, *[applause]*).
 
-:::note Note
+:::note[Note]
 Applicable to **audio content** and **video with meaningful audio**.
 :::
 
@@ -91,7 +91,7 @@ Applicable to **audio content** and **video with meaningful audio**.
 </video>
 ```
 
-:::tip Tip
+:::tip[Tip]
 - **Purpose:** Show **spoken dialogue and important sounds**.
 - **Sync:** Must be synchronized with audio.
 - **Location:** Directly associated with the video — embedded via `<track>` in `<video>` or in a visible caption area below the video.
@@ -100,7 +100,7 @@ Applicable to **audio content** and **video with meaningful audio**.
 - **Other:** Include speaker names and non-speech sounds (`[applause]`, `[music]`). Should be toggleable.
 :::
 
-:::info Link
+:::info[Link]
 More information about **Captions** can be found here: [Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/)
 :::
 
@@ -108,7 +108,7 @@ More information about **Captions** can be found here: [Captions/Subtitles](http
 
 Transcripts provide a **complete text alternative for audio and video content**, including spoken dialogue, speaker identification, non-speech audio (e.g., *[music]*), and relevant visual information.
 
-:::note Note
+:::note[Note]
 Applicable to **audio** and **video** content. Transcripts are also useful for users who prefer or require **text-based access**.
 :::
 
@@ -146,7 +146,7 @@ Transcripts are typically accessed using:
 </div>
 ```
 
-:::tip Tip
+:::tip[Tip]
 - **Purpose:** Full **text alternative** for audio and video content.
 - **Sync:** Not required to be in real-time, but **timestamps optional**.
 - **Location:** Place **below or next to media player**. Clearly label with `aria-describedby` or headings for screen readers.
@@ -155,7 +155,7 @@ Transcripts are typically accessed using:
 - **Other:** Include **speaker names**, **sound cues**, and visual context. Structure for readability.
 :::
 
-:::info Link
+:::info[Link]
 More information about **Transcripts** can be found here: [Transcripts](https://www.w3.org/WAI/media/av/transcripts/)
 :::
 
@@ -171,7 +171,7 @@ They also improve usability for a wider audience, including users who:
 - Are **non-native speakers** who benefit from reading along  
 - Need to **search, review, or process information at their own pace**
 
-:::info Link
+:::info[Link]
 Read more here: 
 - [Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/)
 - [Adding captions and subtitles to HTML video](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)

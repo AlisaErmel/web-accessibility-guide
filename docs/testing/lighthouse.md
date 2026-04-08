@@ -43,6 +43,6 @@ This screenshot shows the possible results of a Lighthouse evaluation. The same 
 - Focus on repeated issues  
 - Do not rely only on score
 
-:::info Link
+:::info[Link]
 More information: **[Introduction to Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)**
 :::

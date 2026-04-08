@@ -22,7 +22,7 @@ Based on these criteria, the following categories were used:
 
 ---
 
-:::note Note
+:::note[Note]
 **Tested** below indicates that the author applied these tools in a self-developed web application.
 :::
 
@@ -36,7 +36,7 @@ Based on these criteria, the following categories were used:
   - `@axe-core/react` – library / React extension for in-code testing  
   - `Lighthouse` – built-in browser DevTools audit tool  
 
-:::info More info about example tools
+:::info[More info about example tools]
 - **@axe-core/react** – [GitHub repository and installation instructions](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react)  
 - **Lighthouse** – [Official documentation](https://developer.chrome.com/docs/lighthouse/overview)  
 :::
@@ -56,7 +56,7 @@ Based on these criteria, the following categories were used:
   - `ZoomText` – Windows application for screen magnification and reading (not free)💶
   - `JAWS` – Windows application / screen reader (commercial; not free)💶
 
-:::info More info about example tools
+:::info[More info about example tools]
 - **NVDA** - [NVDA Website](https://www.nvaccess.org/download/)
 - **ZoomText** - [ZoomText website](https://vispero.com/zoomtext-screen-magnifier-software/)
 - **JAWS** - [JAWS website](https://vispero.com/jaws-screen-reader-software/)
@@ -73,7 +73,7 @@ Based on these criteria, the following categories were used:
 - **Examples:**
   - `Stark` – browser extension / Figma plugin for color contrast and focus simulation
 
-:::info More info about example tools
+:::info[More info about example tools]
 - **Stark** - [Stark Website For Developers](https://www.getstark.co/for-developers/)
 :::
 
@@ -88,7 +88,7 @@ Based on these criteria, the following categories were used:
 - **Examples:**
   - `WAVE evaluation tool` – browser extension / web application
 
-:::info More info about example tools
+:::info[More info about example tools]
 - **WAVE** - [WAVE Website](https://wave.webaim.org/)
 :::
 
@@ -103,7 +103,7 @@ Based on these criteria, the following categories were used:
 - **Examples:**
   - `Storybook` – standalone UI component development environment
 
-:::info More info about example tools
+:::info[More info about example tools]
 - **Storybook** - [Storybook Website](https://storybook.js.org/)
 ::: 
 
@@ -138,7 +138,7 @@ Use tools that integrate into coding and design workflows:
 - Fix problems quickly before they propagate  
 - Maintain consistent accessibility throughout the application
 
-:::tip Good to remember
+:::tip[Good to remember]
 **During development** refers to the process of creating a single page of the website, where regular checks help prevent a large number of accessibility issues later.
 :::
 

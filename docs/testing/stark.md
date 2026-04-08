@@ -43,6 +43,6 @@ Alternatively, for design: **[Figma plugin](https://www.figma.com/community/plug
 - Always meet WCAG contrast standards  
 - Avoid color-only meaning
 
-:::info Link
+:::info[Link]
 More information: **[Stark for Developers](https://www.getstark.co/for-developers/)**
 :::

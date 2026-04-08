@@ -40,6 +40,6 @@ Multimedia content should include captions, audio descriptions, and transcripts 
 
 The development phase transforms accessibility principles into practical implementation. By following these best practices, developers can create applications that are inclusive, user-friendly, and compliant with accessibility standards.
 
-:::tip Tip
+:::tip[Tip]
 In the following documentation, each best practice will include a **list of tools and methods** to test and verify that it has been implemented correctly. This will help developers ensure that headings, landmarks, ARIA attributes, focus management, responsive design, and UI components are all functioning as intended.
 :::

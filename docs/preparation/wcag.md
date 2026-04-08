@@ -69,7 +69,7 @@ Following WCAG ensures that digital products are:
 - Compliant with international accessibility standards
 - Inclusive by design
 
-:::info Link
+:::info[Link]
 **Official Resources:**
 - You can find the full **WCAG 2.2** specification here:  [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - **[Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG22/)**

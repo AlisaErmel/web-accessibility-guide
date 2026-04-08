@@ -18,7 +18,7 @@ Proper structuring ensures that:
 - Users can quickly **navigate** between different sections of a page  
 - The overall **user experience** is more predictable and understandable  
 
-:::note Note
+:::note[Note]
 Following proper heading hierarchy and semantic structure supports WCAG’s **Perceivable** and **Operable** principles, making content accessible to a wider audience. [Introduction to Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/intro#understanding-the-four-principles-of-accessibility)
 :::
 
@@ -28,7 +28,7 @@ Following proper heading hierarchy and semantic structure supports WCAG’s **Pe
 
 Using **semantic HTML elements** is a key best practice for accessibility. These elements provide meaning to the content and create recognizable **landmarks** for assistive technologies, reducing the need for additional ARIA attributes in many cases.
 
-:::note Note
+:::note[Note]
 **Semantic elements** are HTML tags that clearly describe their purpose and the type of content they contain. Examples include:
 
 - `<header>` – page or section header  
@@ -58,7 +58,7 @@ Understanding the difference between `<section>` and `<div>` is important for bu
 
 - - **`<section>`** is a **semantic element** used to group related content around a specific topic. It typically includes a heading and creates a meaningful landmark for assistive technologies when used appropriately.
 
-:::tip Best practice
+:::tip[Best practice]
 1. A **`<section>`** should always have a **heading** (e.g., `<h2>` – `<h6>`) to clearly define its purpose.
 2. Semantic elements like **`<section>`** can reduce the need for **extra ARIA attributes**, because assistive technologies can already interpret their purpose.
 
@@ -67,7 +67,7 @@ Learn more about **ARIA** in the [ARIA section of this documentation](./aria)
 
 - **`<div>`** is a **non-semantic element** used only for grouping or styling content. It does not provide any information about the purpose of the content.
 
-:::caution Attention
+:::caution[Attention]
 When using `<div>` for layout, additional ARIA attributes (like `role="region"`) may be needed to make it accessible.
 :::
 
@@ -93,7 +93,7 @@ In this example, the `<div>` is used for styling purposes. While it looks visual
 
 Assistive technologies cannot identify this as a distinct section unless additional ARIA attributes (like `role="region"`) are added.
 
-:::tip Best Practice
+:::tip[Best Practice]
 Use **`<section>`** (or other semantic elements) whenever the content has a clear purpose or topic. Use **`<div>`** only when no suitable semantic element exists.
 :::
 
@@ -109,11 +109,11 @@ Use **`<section>`** (or other semantic elements) whenever the content has a clea
 <h3>Subsection</h3>
 ```
 
-:::caution Attention
+:::caution[Attention]
 Avoid skipping levels (e.g., jumping from `<h1>` to `<h3>`), as this can confuse assistive technologies.
 :::
 
-:::tip Good to know
+:::tip[Good to know]
 Proper heading hierarchy also helps maintain a **logical tab order** for keyboard navigation.
 :::
 
@@ -156,7 +156,7 @@ Proper heading hierarchy also helps maintain a **logical tab order** for keyboar
 </body>
 ```
 
-:::tip Tools to Test
+:::tip[Tools to Test]
 Developers can **verify page structure** using accessibility tools such as:
 
 - `Stark` – [Stark Accessibility Checker Chrome Extension](https://chromewebstore.google.com/detail/stark-accessibility-check/fkfaapnmfippddbeemjjbclenphooipm)  

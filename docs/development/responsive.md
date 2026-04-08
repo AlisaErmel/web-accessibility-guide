@@ -146,13 +146,13 @@ html {
 - Reduces reliance on fixed breakpoints
 - Ensures consistent scaling of text, spacing, and interactive elements
 
-:::tip Tip
+:::tip[Tip]
 Using `rem` for **global layout** and **typography**, combined with `em` for **component-level scaling**, enables flexible, responsive, and accessible designs with minimal CSS complexity.
 :::
 
 ---
 
-:::tip Tools to Test
+:::tip[Tools to Test]
 Developers can **verify responsive design and scaling behavior** using tools such as:
 
 - `Chrome DevTools (Device Toolbar)` – [Official documentation](https://developer.chrome.com/docs/devtools/device-mode)  
