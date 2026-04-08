@@ -1,5 +1,7 @@
 # Accessibility Technical Documentation for Web Applications 📝
 
+![Home page of the Accessibility Technical Documentation](/static/img/home.JPG)
+
 This repository contains a **Technical Documentation on web accessibility**, created as a final product of a bachelor thesis. The documentation was made using **Docusaurus**, a modern static site generator that provides a structured and easy-to-navigate layout for technical guides.
 
 ## Table of Contents 📋
