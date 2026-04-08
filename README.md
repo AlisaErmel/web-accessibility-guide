@@ -1,41 +1,63 @@
-# Website
+# Accessibility Technical Documentation for Web Applications 📝
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains a **Technical Documentation on web accessibility**, created as a final product of a bachelor thesis. The documentation was made using **Docusaurus**, a modern static site generator that provides a structured and easy-to-navigate layout for technical guides.
 
-## Installation
+## Table of Contents 📋
 
-```bash
-yarn
-```
+- [Project Overview](#project-overview-)  
+- [Quick Start](#quick-start-)  
+- [Objectives](#objectives-)  
+- [Features](#features-)  
+- [License](#license-)  
 
-## Local Development
+## Project Overview 🔎
 
-```bash
-yarn start
-```
+This documentation provides a **comprehensive guide** to implementing accessibility in **web applications**. It is designed for developers, designers, and evaluators who want to create **inclusive, usable web products**.  
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+It covers **all stages of web development**, including:
 
-## Build
+- Pre-development planning and considerations  
+- Implementation strategies and testing during development  
+- Validation and evaluation after development  
 
-```bash
-yarn build
-```
+The goal is to offer both **practical guidance** and a **structured reference** for accessibility best practices.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Quick Start 🚀
 
-## Deployment
+If you want to **quickly apply accessibility practices** in your web application, follow these steps:
 
-Using SSH:
+1. **Understand Accessibility**  
+   - Learn the meaning and importance of accessibility  
+   - Identify who benefits from accessible web applications  
 
-```bash
-USE_SSH=true yarn deploy
-```
+2. **Implement Best Practices**  
+   - Follow semantic HTML and coding standards  
+   - Use ARIA roles appropriately  
+   - Ensure color contrast and typography are readable  
+   - Make images, audio, and video accessible  
 
-Not using SSH:
+3. **Test Your Application**  
+   - Use tools like screen readers, Lighthouse, or Axe  
+   - Check compliance with accessibility standards  
+   - Fix any usability issues discovered during testing
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## Objectives 🎯
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The main objectives of this documentation are:
+
+- Provide practical guidance for implementing accessibility in **web applications**  
+- Document **best practices** and common mistakes to avoid  
+- Serve as a reference for **future development and evaluation** of accessible applications  
+- Support developers in creating **inclusive and usable digital products**  
+
+## Features ✨
+
+- Written in **Markdown** for easy editing and clarity  
+- Built with **Docusaurus** for a professional, structured, and navigable documentation website  
+- Includes **examples, practical advice, and notes** on common accessibility mistakes  
+- Covers all development phases: **before, during, and after development**  
+- Provides links to **official standards** and additional learning resources
+
+## License 🔑
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
