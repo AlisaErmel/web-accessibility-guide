@@ -53,7 +53,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    // Replace with your project's social card image
     image: 'img/accessibility-social-card.png',
     colorMode: {
       respectPrefersColorScheme: true,
