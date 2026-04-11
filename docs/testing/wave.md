@@ -16,6 +16,15 @@ After the development phase for final accessibility testing.
 ## How to use it
 
 1. Go to: https://wave.webaim.org/  
+
+:::tip[Tip]
+If your website is not publicly available (e.g., running locally on `localhost`), you can use the **WAVE browser extension** instead.
+
+For example, the **[WAVE Chrome extension](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)**.
+
+This allows accessibility testing directly on local or private pages.
+:::
+
 2. Enter your website URL
 3. Review the evaluation results:
 
