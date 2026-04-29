@@ -37,7 +37,7 @@ This screenshot shows the possible results of a Lighthouse evaluation. The same 
 - Automated only  
 - Cannot simulate real users
 
-## Tips & Best Practices 💡
+## Tips & Best Practices <span aria-hidden="true">💡</span>
 
 - Run audits regularly  
 - Focus on repeated issues  

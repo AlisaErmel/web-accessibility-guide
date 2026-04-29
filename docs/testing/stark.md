@@ -38,7 +38,7 @@ Alternatively, for design: **[Figma plugin](https://www.figma.com/community/plug
 
 - Only visual testing
 
-## Tips & Best Practices 💡
+## Tips & Best Practices <span aria-hidden="true">💡</span>
 
 - Always meet WCAG contrast standards  
 - Avoid color-only meaning

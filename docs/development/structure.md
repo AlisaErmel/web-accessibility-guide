@@ -3,7 +3,7 @@ sidebar_label: "Structure of the Page"
 sidebar_position: 2
 ---
 
-# Structure of the Page 🧱
+# Structure of the Page <span aria-hidden="true">🧱</span>
 
 A clear and consistent page structure is essential for building accessible web applications. Assistive technologies, such as **screen readers**, **keyboard-only navigation**, and **braille displays**, rely on the underlying HTML structure to interpret and present content to users. Proper structure also improves the overall user experience for all users.
 
@@ -171,7 +171,7 @@ Developers can **verify page structure** using accessibility tools such as:
 These tools help ensure that **headings, landmarks, and navigation** are correctly interpreted by assistive technologies.
 :::
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 - **Consistent page** structure is essential for accessibility and usability.
 - **Semantic HTML** improves clarity for users and assistive technologies by creating meaningful landmarks.
 - **Logical heading hierarchy** allows screen readers to navigate content efficiently.

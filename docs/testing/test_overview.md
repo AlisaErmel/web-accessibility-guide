@@ -25,7 +25,7 @@ In this section, you will learn **how to use these tools effectively**, includin
 
 ---
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 No single tool can detect all accessibility issues.
 

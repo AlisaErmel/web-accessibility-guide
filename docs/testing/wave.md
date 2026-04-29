@@ -42,7 +42,7 @@ In this example, the public website `https://www.w3schools.com/` was used.
 
 - Does not simulate real user behavior  
 
-## Tips & Best Practices 💡
+## Tips & Best Practices <span aria-hidden="true">💡</span>
 
 - Use after development  
 - Combine with other tools  

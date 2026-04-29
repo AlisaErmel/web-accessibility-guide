@@ -15,25 +15,25 @@ In this phase, accessibility is actively implemented in the product through **be
 
 This section focuses on the most important accessibility best practices that should be applied during development:
 
-### 🛠️ Tools During Development
+### <span aria-hidden="true">🛠️</span> Tools During Development
 Using appropriate tools throughout development helps identify and fix accessibility issues early. This includes browser developer tools, linters, and automated accessibility testing tools.
 
-### 🧱 Structure of the Page
+### <span aria-hidden="true">🧱</span> Structure of the Page
 A well-structured page ensures that content is logically organized and easy to navigate. Proper use of semantic HTML elements improves accessibility for screen readers and other assistive technologies.
 
-### 🔊 ARIA (Accessible Rich Internet Applications)
+### <span aria-hidden="true">🔊</span> ARIA (Accessible Rich Internet Applications)
 ARIA attributes enhance accessibility when native HTML is not sufficient. They help provide additional context and roles to assistive technologies.
 
-### 🎯 Focus Management
+### <span aria-hidden="true">🎯</span> Focus Management
 Managing keyboard focus is essential for users who navigate without a mouse. Clear focus indicators and logical tab order improve usability and accessibility.
 
-### 📱 Responsive Web Design
+### <span aria-hidden="true">📱</span> Responsive Web Design
 Responsive design ensures that content is accessible across different devices and screen sizes, including mobile phones, tablets, and desktops.
 
-### 🖼️ Images and Alt Text
+### <span aria-hidden="true">🖼️</span> Images and Alt Text
 Images must include meaningful alt text so that users relying on screen readers can understand their purpose. Proper use of alternative text ensures that visual content is accessible and does not create barriers.
 
-### 🎬 Audio & Video Accessibility
+### <span aria-hidden="true">🎬</span> Audio & Video Accessibility
 Multimedia content should include captions, audio descriptions, and transcripts to ensure accessibility for users with hearing or visual impairments. These features provide alternative ways to access information conveyed through audio and visuals.
 
 ## Summary

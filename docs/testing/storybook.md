@@ -94,7 +94,7 @@ npm run storybook
 
 - Does not replace full app testing
 
-## Tips & Best Practices 💡
+## Tips & Best Practices <span aria-hidden="true">💡</span>
 
 - Test components before integration  
 - Keep stories simple   

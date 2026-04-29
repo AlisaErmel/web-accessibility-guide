@@ -3,7 +3,7 @@ sidebar_label: "Images"
 sidebar_position: 6
 ---
 
-# Images and Alt Text 🖼️
+# Images and Alt Text <span aria-hidden="true">🖼️</span>
 
 Images are an essential part of modern web applications, but they can also create barriers for users with visual impairments if not implemented correctly. Using descriptive alternative text (alt text) ensures that users relying on screen readers or other assistive technologies can understand the content and purpose of images.
 
@@ -35,12 +35,12 @@ Describe the **key information** the image provides.
 
 *An image of Saucony brand of running shoes from [The Sports Room](https://thesportsroom.ie/collections/saucony?srsltid=AfmBOoqWz5T8FtZSMs7trvyGotdjL58Cl4_NWLwojSag4JoUI-v77oju)*
 
-**❌ Bad:**
+**<span aria-hidden="true">❌</span> Bad:**
 ```html
 <img src="shoes.png" alt="shoes">
 ```
 
-**✅ Good:**
+**<span aria-hidden="true">✅</span> Good:**
 ```html
 <img src="shoes.png" alt="White running shoes with pink soles">
 ```
@@ -53,13 +53,13 @@ Describe the action, not the appearance.
 
 ![Example of functional image](img/search-icon.png)
 
-**❌ Bad:**
+**<span aria-hidden="true">❌</span> Bad:**
 ```html
 <input type="text" placeholder="Search">
 <img src="search-icon.svg" alt="magnifying glass">
 ```
 
-**✅ Good:**
+**<span aria-hidden="true">✅</span> Good:**
 ```html
 <input type="text" placeholder="Search">
 <img src="search-icon.svg" alt="Search">
@@ -73,12 +73,12 @@ Include the same text in the alt attribute.
 
 ![Example of image that contains text](img/discount.png)
 
-**❌ Bad:**
+**<span aria-hidden="true">❌</span> Bad:**
 ```html
 <img src="discount.png" alt="banner">
 ```
 
-**✅ Good:**
+**<span aria-hidden="true">✅</span> Good:**
 ```html
 <img src="discount.png" alt="20% for all products!">
 ```
@@ -203,7 +203,7 @@ Developers can **verify image accessibility and alt text** using tools such as:
 These tools help ensure that **all images, icons, and functional elements** are accessible and properly announced by assistive technologies.
 :::
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 Using `alt` text ensures images are accessible and meaningful for all users, especially those relying on screen readers.
 

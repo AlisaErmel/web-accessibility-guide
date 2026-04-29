@@ -9,7 +9,7 @@ This section lists references, books, websites, and other resources that were us
 
 ---
 
-## Foundational Books (Accessibility Principles & Design) 📚
+## Foundational Books (Accessibility Principles & Design) <span aria-hidden="true">📚</span>
 
 - **"Inclusive Design for Accessibility" – Dale Cruse, Denis Boudreau (2025)**  
   *Provides practical strategies for designing web and mobile applications accessible to all users.*
@@ -28,7 +28,7 @@ This section lists references, books, websites, and other resources that were us
 
 ---
 
-## Technical Guides (Coding & Implementation) 📚
+## Technical Guides (Coding & Implementation) <span aria-hidden="true">📚</span>
 
 - **"HTML and CSS" – Rheinwerk Publishing, Inc, Jürgen Wolf (2023)**  
   *Essential reference for writing semantic and accessible HTML/CSS.*
@@ -41,7 +41,7 @@ This section lists references, books, websites, and other resources that were us
 
 ---
 
-## UX & Interaction Design 📚
+## UX & Interaction Design <span aria-hidden="true">📚</span>
 
 - **"UX for the Web" – Marli Ritter, Cara Winterbottom (2017)**  
   *Covers user-centered design practices with a focus on usability.*
@@ -54,7 +54,7 @@ This section lists references, books, websites, and other resources that were us
 
 ---
 
-## Standards & Guidelines 🌐
+## Standards & Guidelines <span aria-hidden="true">🌐</span>
 
 - **[W3C Web Accessibility Initiative (WAI) for Developers](https://www.w3.org/WAI/roles/developers/)**  
   *Official guidance for integrating accessibility in web projects.*
@@ -70,7 +70,7 @@ This section lists references, books, websites, and other resources that were us
 
 ---  
 
-## Tools & Testing Resources 🛠️
+## Tools & Testing Resources <span aria-hidden="true">🛠️</span>
 
 - **[NVDA Screen Reader](https://www.nvaccess.org/download/)**  
   *Free screen reader for Windows to test accessibility of web content for visually impaired users.*
@@ -92,7 +92,7 @@ This section lists references, books, websites, and other resources that were us
 
 ---
 
-## Video Tutorials 🎥
+## Video Tutorials <span aria-hidden="true">🎥</span>
 
 - **[Responsive Web Design Explained](https://www.youtube.com/watch?v=VQraviuwbzU)**  
   *5 simple tips to making responsive layouts the easy way*
@@ -102,7 +102,7 @@ This section lists references, books, websites, and other resources that were us
 
   ---  
 
-## Additional Learning Resources 🌐
+## Additional Learning Resources <span aria-hidden="true">🌐</span>
 
 - **[A11y Project](https://www.a11yproject.com/)**  
   *Community-driven accessibility resources, tutorials, and checklists.*

@@ -81,7 +81,7 @@ The **Speech Viewer** is especially useful for **debugging accessibility issues*
 - Requires practice  
 - Different screen readers behave differently
 
-## Tips & Best Practices 💡
+## Tips & Best Practices <span aria-hidden="true">💡</span>
 
 - Close your eyes while testing  
 - Navigate only with keyboard  

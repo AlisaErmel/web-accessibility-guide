@@ -3,7 +3,7 @@ sidebar_label: "Responsive Web Design"
 sidebar_position: 5
 ---
 
-# Responsive Web Design 📱
+# Responsive Web Design <span aria-hidden="true">📱</span>
 
 **Responsive Web Design (RWD)** is a key part of accessibility. It ensures that a web application remains usable and readable across different devices, screen sizes, and user settings.
 
@@ -42,12 +42,12 @@ This approach implements responsive behavior using CSS media queries with predef
 - `992px` (tablets / small desktops)
 - `1200px` (large desktops)
 
-**Advantages:** ✔️
+**Advantages:** <span aria-hidden="true">✔️</span>
 - Provides explicit **control** over layout adjustments at **defined screen sizes**
 - Widely **supported** and well-documented in modern browsers
 - **Straightforward** to implement for simple layouts
 
-**Limitations (Accessibility Perspective):** ❗
+**Limitations (Accessibility Perspective):** <span aria-hidden="true">❗</span>
 - Relies on **fixed pixel values**, which do not adapt to user-defined font scaling
 - May result in **inconsistent element sizing** when users increase zoom or default font size
 - Requires multiple breakpoint definitions, increasing the **risk of missing UI elements**
@@ -164,7 +164,7 @@ Developers can **verify responsive design and scaling behavior** using tools suc
 These tools help ensure that **layouts, text, spacing, and interactive elements** scale correctly and remain accessible on all screen sizes.
 :::
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 Responsive Web Design combines **media queries** and **scalable CSS units** to create interfaces that adapt to different screen sizes and user settings.  
 

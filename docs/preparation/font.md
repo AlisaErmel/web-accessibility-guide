@@ -3,7 +3,7 @@ sidebar_label: "Typography Selection"
 sidebar_position: 6
 ---
 
-# Typography Selection ✍️
+# Typography Selection <span aria-hidden="true">✍️</span>
 
 This section describes the principles and rationale behind choosing the font family for the web application, focusing on accessibility and user experience.
 
@@ -81,7 +81,7 @@ When defining fonts in CSS, always include **fallback fonts** in case the primar
 
 ---
 
-## Avoiding Character Confusion 🔠
+## Avoiding Character Confusion <span aria-hidden="true">🔠</span>
 
 To ensure readability and minimize misinterpretation, pay special attention to characters that are **commonly confused**. Below are some of the most critical groups of characters, demonstrated using the two example fonts: `Noto Sans Mono` and `Oi`.
 
@@ -145,7 +145,7 @@ You can read more about **Typography** in **Google Fonts Articles**: [Choosing T
 
 ---
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 Choosing the right typeface supports **inclusive and user-friendly interfaces** by:
 

@@ -25,9 +25,9 @@ An accessible web application:
 - Improves overall **usability and clarity**  
 
 For example:
-- Clear structure makes content easier to understand 📄  
-- Good contrast improves readability in different environments ☀️  
-- Logical navigation helps users move through the interface efficiently ⌨️  
+- Clear structure makes content easier to understand <span aria-hidden="true">📄</span>
+- Good contrast improves readability in different environments <span aria-hidden="true">☀️</span>
+- Logical navigation helps users move through the interface efficiently <span aria-hidden="true">⌨️</span>  
 
 ## Who Benefits?
 
@@ -38,7 +38,7 @@ Accessibility benefits a wide range of users:
 - Anyone experiencing temporary limitations  
 - In fact, **all users**, through improved usability  
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 Accessibility is not an optional feature — it is a **core quality** of a well-designed web application.
 
@@ -47,4 +47,4 @@ By applying accessibility principles, you create products that are:
 - More **inclusive**  
 - More **robust**  
 
-And ultimately, better for everyone. 💟
+And ultimately, better for everyone!

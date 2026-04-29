@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Accessibility Guidelines Intro
 
-**Hello Developer 🌟,**
+**Hello Developer <span aria-hidden="true">🌟</span>,**
 
 This quick guide will walk you **step by step** through **digital accessibility**, helping you understand the **essentials** and apply them to your **web application**.
 
@@ -26,6 +26,6 @@ In this technical documentation, you’ll find **advice**, **common mistakes**, 
 
 ### 3. Where to Find More Information
 
-We’ll also cover where to find official web accessibility standards and other reliable resources for deeper learning. 📖
+We’ll also cover where to find official web accessibility standards and other reliable resources for deeper learning. <span aria-hidden="true">📖</span>
 
-Good luck with your creations! 💟
+Good luck with your creations! <span aria-hidden="true">🍀</span>

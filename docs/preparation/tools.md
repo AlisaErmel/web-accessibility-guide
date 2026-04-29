@@ -9,7 +9,7 @@ To ensure your web application is accessible, it is essential to use the **right
 
 ---
 
-## Choosing Accessibility Tools 🛠️
+## Choosing Accessibility Tools <span aria-hidden="true">🛠️</span>
 
 When selecting tools for accessibility testing, consider the following aspects:
 
@@ -119,7 +119,7 @@ Based on these criteria, the following categories were used:
 
 ---
 
-## Applying Tools at the Right Stage ⏱️
+## Applying Tools at the Right Stage <span aria-hidden="true">⏱️</span>
 
 ### During Development
 
@@ -159,7 +159,7 @@ Use tools that review the **final product**:
 
 ---
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 Choosing the right tool depends on the **type of issue**, the **stage of development**, and the **integration into workflow**.  
 

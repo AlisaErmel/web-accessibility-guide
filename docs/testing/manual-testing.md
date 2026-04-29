@@ -32,7 +32,7 @@ During the development phase and after deployment for verification.
 - Button accessibility  
 - Form usability  
 
-## Tips & Best Practices 💡
+## Tips & Best Practices <span aria-hidden="true">💡</span>
 
 - Test using only the keyboard (without a mouse)  
 - Test slowly and carefully  

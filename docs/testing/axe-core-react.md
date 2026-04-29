@@ -67,7 +67,7 @@ In this example, the image does not have alternative text (`alt`), which results
 - Cannot detect usability issues
 - Requires developer interpretation
 
-## Tips & Best Practices 💡
+## Tips & Best Practices <span aria-hidden="true">💡</span>
 
 - Use only in **development mode**
 - Fix issues immediately to avoid accumulation

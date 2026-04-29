@@ -3,7 +3,7 @@ sidebar_label: "Focus Management"
 sidebar_position: 4
 ---
 
-# Focus Management 🎯
+# Focus Management <span aria-hidden="true">🎯</span>
 
 **Focus** is a key concept in web accessibility that ensures users can clearly identify which element on a page is currently active or ready for interaction.
 
@@ -44,7 +44,7 @@ All scenarios should provide clear and consistent visual feedback.
 
 ---
 
-## Keyboard Navigation ⌨️
+## Keyboard Navigation <span aria-hidden="true">⌨️</span>
 
 Keyboard navigation is the primary mechanism that makes focus essential.
 
@@ -58,7 +58,7 @@ Users navigate websites using:
 More information about **keyboard shortcuts** and keyboard navigation: [Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
 :::
 
-## Hover vs Focus 🖱️
+## Hover vs Focus <span aria-hidden="true">🖱️</span>
 
 It is important to distinguish between these states:
 
@@ -119,7 +119,7 @@ The `:focus-visible` pseudo-class allows developers to display focus indicators 
 - Reduces unnecessary visual feedback for mouse users
 - Ensures consistent behavior across browsers
 
-## Live Example 🎮
+## Live Example <span aria-hidden="true">🎮</span>
 
 ```html live
 function AccessibleForm() {
@@ -224,7 +224,7 @@ function AccessibleForm() {
   In this example, a border is added so that users can recognize the focused element even without relying on color. If only the color of the border changes, some users may not perceive the difference. More details are provided in the next section.
   :::
 
-## Accessibility for Colour-Blind Users 🎨
+## Accessibility for Colour-Blind Users <span aria-hidden="true">🎨</span>
 
 Relying only on colour is insufficient for accessible design, as some users may not perceive colour differences.
 
@@ -232,11 +232,11 @@ Relying only on colour is insufficient for accessible design, as some users may 
 For guidance on choosing accessible colour combinations, see the **[Colour Selection](../preparation/colours)** section.
 :::
 
-**❌ Incorrect:**
+**<span aria-hidden="true">❌</span> Incorrect:**
 
 Using only colour changes to indicate focus or interaction.
 
-**✅ Correct:**
+**<span aria-hidden="true">✅</span> Correct:**
 
 Combine multiple visual indicators:
 - Border
@@ -275,7 +275,7 @@ This approach ensures that focus remains visible even in grayscale or low-contra
 
 This example demonstrates why relying only on colour is insufficient and highlights the importance of combining multiple visual indicators.
 
-## Pointer Feedback 👆
+## Pointer Feedback <span aria-hidden="true">👆</span>
 
 Mouse pointer styles convey interactivity and help users understand which elements can be clicked:
 
@@ -313,7 +313,7 @@ Developers can **verify focus management and keyboard accessibility** using acce
 These tools help ensure that **keyboard navigation, tab order, and visible focus indicators** are correctly implemented and functional for all users.
 :::
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 - **Hover (`:hover`)** – Provides immediate visual feedback for mouse users, e.g., background change.  
 - **Focus (`:focus`)** – Indicates the active element; always use clear visual cues like border, shadow, or background.  

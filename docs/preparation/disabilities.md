@@ -13,7 +13,7 @@ To create inclusive experiences, you should consider several **key user groups**
 
 ## Key User Groups
 
-### 1. Vision 👁️
+### 1. Vision <span aria-hidden="true">👁️</span>
 
 Some users may have difficulties perceiving visual content on the screen.
 
@@ -24,7 +24,7 @@ This means your application should:
 
 ---
 
-### 2. Hearing 👂
+### 2. Hearing <span aria-hidden="true">👂</span>
 
 Some users may not be able to access audio content.
 
@@ -34,7 +34,7 @@ To support them, your application should:
 
 ---
 
-### 3. Motor & Mobility 🤲
+### 3. Motor & Mobility <span aria-hidden="true">🤲</span>
 
 Some users may have limited ability to interact with input devices like a mouse or touchscreen.
 
@@ -45,7 +45,7 @@ Your application should:
 
 ---
 
-### 4. Cognitive & Learning 🧩
+### 4. Cognitive & Learning <span aria-hidden="true">🧩</span>
 
 Some users may experience difficulties with understanding, memory, focus, or managing sensory input. This includes individuals with conditions such as ADHD, anxiety, or depression, who may be **very sensitive to bright colors, flashing content, or complex layouts**.
 
@@ -56,8 +56,8 @@ To improve accessibility, your application should:
 
 ---
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 Considering these user groups helps you design applications that are **flexible**, **clear**, and **usable** for a wide range of users.
 
-Accessibility is about anticipating different needs and ensuring your interface works well in all of these scenarios. 💟
+Accessibility is about anticipating different needs and ensuring your interface works well in all of these scenarios.

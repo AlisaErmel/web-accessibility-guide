@@ -3,7 +3,7 @@ sidebar_label: "ARIA"
 sidebar_position: 3
 ---
 
-# ARIA – Accessible Rich Internet Applications 🔊
+# ARIA – Accessible Rich Internet Applications <span aria-hidden="true">🔊</span>
 
 After creating a proper page structure, the next step in web accessibility is enhancing elements with additional semantic information for assistive technologies. This is done using **ARIA** attributes.
 
@@ -22,7 +22,7 @@ After creating a proper page structure, the next step in web accessibility is en
 
 ## Common ARIA Attributes
 
-### 🏷️ `role`
+### <span aria-hidden="true">🏷️</span> `role`
 Defines the purpose of an element for assistive technologies.  
 
 ```html
@@ -37,7 +37,7 @@ Here, the `<div>` explicitly declares its role as navigation. This is necessary 
 Do not change native semantics unnecessarily (e.g., avoid adding `role="button"` to a `<button>`).
 :::
 
-### 🏷️ `aria-hidden`
+### <span aria-hidden="true">🏷️</span> `aria-hidden`
 Indicates whether an element should be ignored by screen readers (`true` or `false`).
 
 ```html
@@ -47,7 +47,7 @@ Indicates whether an element should be ignored by screen readers (`true` or `fal
 ```
 The emoji is purely decorative and ignored by screen readers.
 
-### 🏷️ `aria-expanded`
+### <span aria-hidden="true">🏷️</span> `aria-expanded`
 Specifies the current state of expandable content, like accordions or menus (`true` or `false`).
 
 ```html
@@ -61,7 +61,7 @@ Specifies the current state of expandable content, like accordions or menus (`tr
 ```
 When the button is pressed, `aria-expanded` should toggle to `true` and the `hidden` attribute should be removed via JavaScript.
 
-### 🏷️ `aria-label`
+### <span aria-hidden="true">🏷️</span> `aria-label`
 Provides an accessible name for elements **without visible text** (e.g., icon buttons).
 
 ```html
@@ -71,7 +71,7 @@ Provides an accessible name for elements **without visible text** (e.g., icon bu
 ```
 The button contains only an icon, but screen readers announce it as “Close menu.”
 
-### 🏷️ `aria-labelledby`
+### <span aria-hidden="true">🏷️</span> `aria-labelledby`
 
 References the ID of an existing element that contains descriptive text.
 
@@ -84,7 +84,7 @@ References the ID of an existing element that contains descriptive text.
 ```
 Screen readers announce the section using the heading text “User Profile.”
 
-### 🏷️ `aria-live`
+### <span aria-hidden="true">🏷️</span> `aria-live`
 
 Used for dynamic content updates, allowing screen readers to announce changes in real time.
 
@@ -121,7 +121,7 @@ Developers can **verify ARIA attributes** using accessibility tools such as:
 These tools help ensure that **roles, aria-labels, aria-labelledby, aria-hidden, and aria-expanded** are correctly implemented and understood by assistive technologies.
 :::
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 * **ARIA complements, not replaces, semantic HTML** and improves accessibility for dynamic and interactive components.
 * Use **`aria-label`** for elements without visible text.

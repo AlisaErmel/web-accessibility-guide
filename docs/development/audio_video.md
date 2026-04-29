@@ -3,7 +3,7 @@ sidebar_label: "Audio & Video"
 sidebar_position: 7
 ---
 
-# Audio and Video 🎬
+# Audio and Video <span aria-hidden="true">🎬</span>
 
 Accessible **audio** and **video** content ensures that all users — including people with hearing, visual, or cognitive impairments — can understand and interact with media.
 
@@ -30,7 +30,7 @@ Audio descriptions provide **spoken narration of important visual information** 
 This applies to **video content**, where visual information is not available through audio alone.
 :::
 
-#### ✅ Benefits:
+#### <span aria-hidden="true">✅</span> Benefits:
 - Enables blind or visually impaired users to understand visual elements  
 - Provides context that is not conveyed through dialogue or sound  
 - Delivered as an **additional audio track synchronized with the video**
@@ -66,12 +66,12 @@ Captions provide a **textual representation of audio content**, including spoken
 Applicable to **audio content** and **video with meaningful audio**.
 :::
 
-#### ✅ Benefits:
+#### <span aria-hidden="true">✅</span> Benefits:
 - Ensures accessibility for **deaf and hard-of-hearing users**  
 - Enables content consumption in **sound-restricted environments**  
 - Improves comprehension for **non-native speakers**  
 
-#### ⚠️ Implementation Considerations:
+#### <span aria-hidden="true">⚠️</span> Implementation Considerations:
 - **Automatic captions should be reviewed**, as they may contain recognition errors  
 - Include **non-speech elements** (e.g., sound effects, tone, music cues)  
 - Ensure proper **synchronization with audio**  
@@ -112,18 +112,18 @@ Transcripts provide a **complete text alternative for audio and video content**,
 Applicable to **audio** and **video** content. Transcripts are also useful for users who prefer or require **text-based access**.
 :::
 
-#### ✅ Benefits:
+#### <span aria-hidden="true">✅</span> Benefits:
 - Ensures accessibility for **deafblind users** via assistive technologies  
 - Provides full content access through **screen readers** and **refreshable braille displays**  
 - Enables users to **read, search, and navigate** content at their own pace  
 - Preserves all information in a **text-based, machine-readable format**  
 
-#### ⚠️ Implementation Considerations:
+#### <span aria-hidden="true">⚠️</span> Implementation Considerations:
 - Include both **audio and visual information** in the transcript  
 - Clearly identify **speakers** and **contextual details**  
 - Maintain a logical and **structured format** for readability and navigation  
 
-#### ⚙️ Assistive Technology Support:
+#### <span aria-hidden="true">⚙️</span> Assistive Technology Support:
 Transcripts are typically accessed using:
 - **Screen readers** (text-to-speech output)  
 - **Refreshable braille displays** (tactile output for non-visual reading)
@@ -161,7 +161,7 @@ More information about **Transcripts** can be found here: [Transcripts](https://
 
 ---
 
-## Key Idea 💡
+## Key Idea <span aria-hidden="true">💡</span>
 
 Accessibility features such as **audio descriptions, captions, and transcripts** are not only essential for users with visual, hearing, or combined impairments.
 
